@@ -13,6 +13,11 @@ public class DemoApplication {
 	String home() {
 		return "Spring is here!";
 	}
+	
+	@GetMapping("/hello")
+	String hello() {
+		return "Hallo Spring-K8";
+	}
 
 
 	public static void main(String[] args) {
